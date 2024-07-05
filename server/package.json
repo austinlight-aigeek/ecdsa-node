@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "server",
   "version": "1.0.0",
   "description": "",
@@ -10,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@noble/curves": "^1.4.2",
     "cors": "^2.8.5",
+    "ethereum-cryptography": "^2.2.1",
     "express": "^4.18.1"
   }
 }
